@@ -1,3 +1,5 @@
+/* styles/Home.module.css */
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -19,8 +21,13 @@
   font-size: 1.5rem;
 }
 
-h1, h2 {
+.title {
   font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.subtitle {
+  font-size: 2.5rem;
   margin: 1rem 0;
 }
 
