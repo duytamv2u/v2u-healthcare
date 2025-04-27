@@ -21,25 +21,27 @@
   font-size: 1.5rem;
 }
 
-/* Thay vì sử dụng h1, h2 toàn cục, tạo các class local */
+/* Local class cho h1 */
 .title {
   font-size: 3rem;
   margin: 1rem 0;
 }
 
+/* Local class cho h2 */
 .subtitle {
   font-size: 2.5rem;
   margin: 1rem 0;
 }
 
-button {
+/* Local class cho button */
+.button {
   padding: 10px 20px;
   font-size: 1.5rem;
   cursor: pointer;
   margin-top: 20px;
 }
 
-button:hover {
+.button:hover {
   background-color: #4CAF50;
   color: white;
 }
