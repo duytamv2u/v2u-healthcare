@@ -22,13 +22,13 @@ export default function Home() {
         </button>
 
         {/* Chatbot iframe */}
-        <div style={{ width: '100%', height: '700px' }}>
+        <div style={{ width: '90%', height: '700px' }}>
           <iframe
-            src="https://www.chatbase.co/chatbot-iframe/Fm0rsLXH6sQDWKkx3BVjM"
-            width="100%"
-            style={{ height: '100%', border: 'none' }}
-            frameBorder="0"
-          ></iframe>
+    src="https://www.chatbase.co/chatbot-iframe/Fm0rsLXH6sQDWKkx3BVjM"
+    width="90%"
+    style="height: 90%; min-height: 700px"
+    frameborder="0"
+></iframe>
         </div>
       </main>
 
