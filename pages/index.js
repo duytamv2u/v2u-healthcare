@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
+        {/* Sử dụng class local */}
         <h1 className={styles.title}>Chào mừng bạn đến với V2U Health Care</h1>
         <h2 className={styles.subtitle}>Hãy tham khảo các sản phẩm của chúng tôi.</h2>
         <p>
