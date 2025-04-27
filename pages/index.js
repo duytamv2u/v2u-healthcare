@@ -28,12 +28,8 @@ export default function Home() {
         <p style={{ fontSize: '1.2rem', marginBottom: '40px' }}>
           Chat with us below for specific guidance.
         </p>
-        
-        {/* Button */}
-        <button 
-          onClick={() => alert('Chatbot đang mở')} 
-          style={{ padding: '10px 20px', fontSize: '1.5rem', cursor: 'pointer', marginBottom: '40px' }}
-              {/* Chatbot iframe */}
+
+        {/* Chatbot iframe */}
         <div style={{ width: '90%', height: '700px', margin: 'auto' }}>
           <iframe
             src="https://www.chatbase.co/chatbot-iframe/Fm0rsLXH6sQDWKkx3BVjM"
